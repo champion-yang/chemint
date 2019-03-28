@@ -1,0 +1,36 @@
+
+.index-menu .cate-menu {
+    background:#000;
+}
+.nav-right ul li{
+    width: 90px;
+}
+.index-menu{
+    z-index: 10;
+}
+.nav-box.main-nav{
+    z-index: 100;
+    
+}
+.nav-box.main-nav .nav-left{
+    background-image: url(../img/meun-all.gif)/*tpa=http://www.baxsun.cn/img/meun-all.gif*/;
+	background-repeat: no-repeat;
+	background-position: 170px 12px;
+}
+.section-top-goods .cp-info{
+    width: 24%;
+    background: #fff;
+    
+}
+.special .section-top-goods .cp-info{
+    width: 20%;
+}
+.banner-wrap .hd ul li{
+    float: left;
+}
+ 
+.special .cp-list-tit h3 .quick-tags{
+ 
+	float: none!important;
+	 
+}

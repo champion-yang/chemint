@@ -1,0 +1,371 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<!--[if lt IE 9]>
+<script src="../../static/js/html5.js" tppabs="http://www.baxsun.cn/static/js/html5.js"></script>
+<script src="../../static/js/css3-mediaqueries.js" tppabs="http://www.baxsun.cn/static/js/css3-mediaqueries.js"></script>
+<![endif]-->
+     <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="EX16czmjqtkuUXjSiRVeMdaroC2vuwq3XeK69L_ro21gNUs9ANncgEoQK_-kTBdb5OrDfueWff0UkNCr5ZvSLA==">
+    <title>注册_百姓阳光大药房</title>
+    <link href="../css/UC_enroll.css" tppabs="http://www.baxsun.cn/uc/css/UC_enroll.css" rel="stylesheet" 0="app\assets\LoginAsset">
+<script src="../../js/jquery-1.8.3.min.js" tppabs="http://www.baxsun.cn/js/jquery-1.8.3.min.js"></script>
+<script src="../../js/layer/layer.js" tppabs="http://www.baxsun.cn/js/layer/layer.js"></script></head>
+
+<body>
+
+	 
+  <div class="head">
+  	<img class="logo" src="../../img/logo.png" tppabs="http://www.baxsun.cn/img/logo.png" alt="">		 
+			<p class="dengl">已有账号！
+				<a href="../login.htm" tppabs="http://www.baxsun.cn/uc/login">马上登录</a>			</p>
+		</div>
+   	<div class="main">
+			<div class="main_near">
+				<h1>欢迎注册百姓阳光账号</h1>
+				<div>
+ 
+<form id="signupForm" class="form-horizontal" action="javascript:if(confirm(%27http://www.baxsun.cn/uc/login/reg?_csrf=EX16czmjqtkuUXjSiRVeMdaroC2vuwq3XeK69L_ro21gNUs9ANncgEoQK_-kTBdb5OrDfueWff0UkNCr5ZvSLA==  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.baxsun.cn/uc/login/reg?_csrf=EX16czmjqtkuUXjSiRVeMdaroC2vuwq3XeK69L_ro21gNUs9ANncgEoQK_-kTBdb5OrDfueWff0UkNCr5ZvSLA==%27" tppabs="http://www.baxsun.cn/uc/login/reg?_csrf=EX16czmjqtkuUXjSiRVeMdaroC2vuwq3XeK69L_ro21gNUs9ANncgEoQK_-kTBdb5OrDfueWff0UkNCr5ZvSLA==" method="post" enctype="multipart/form-data">
+<input type="hidden" name="_csrf" value="EX16czmjqtkuUXjSiRVeMdaroC2vuwq3XeK69L_ro21gNUs9ANncgEoQK_-kTBdb5OrDfueWff0UkNCr5ZvSLA==">
+		 
+		<div class="form-group">
+ 
+ 
+		 
+				  </form>			 
+ 
+
+
+<div class="form-group field-memberreg-member_truename">
+<div class="col-sm-8 col-sm-offset-3"><input type="text" id="memberreg-member_truename" class="txt" name="MemberReg[member_truename]" placeholder="请入姓名"><div class="error-msg"></div></div>
+</div>	<div class="form-group field-memberreg-member_male">
+<div class="col-sm-8 col-sm-offset-3"><select id="memberreg-member_male" class="txt" name="MemberReg[member_male]" placeholder="请选择性别" style="width: 450px">
+<option value="男">男</option>
+<option value="女">女</option>
+</select><div class="error-msg"></div></div>
+</div>	<select name="sel1" id="sel1" class="txt" style="width:146px">
+        <option value="year">年</option>
+      </select> 
+      <select name="sel2" id="sel2" class="txt" style="width:146px">
+        <option value="month">月</option>
+      </select> 
+      <select name="sel3" id="sel3" class="txt" style="width:146px">
+        <option value="day">日</option>
+      </select>
+      <span id="result"></span>
+				 		<div class="form-group field-loginform-mobile required">
+<div class="col-sm-8 col-sm-offset-3"><input type="text" id="loginform-mobile" class="txt" name="MemberReg[member_mobile]" placeholder="输入您的手机号" aria-required="true"><div class="error-msg"></div></div>
+</div>						<div class="form-group field-memberreg-smscode required">
+<div class="col-sm-8 col-sm-offset-3"><input type="text" id="memberreg-smscode" class="authenticode yanzheng" name="MemberReg[smsCode]" placeholder="输入验证码" aria-required="true"><div class="authenticode-button sub" id="second"> 获取验证码 </div><div class="error-msg"></div></div>
+</div>						<div class="form-group field-memberreg-password required">
+<div class="col-sm-8 col-sm-offset-3"><input type="password" id="memberreg-password" class="mima" name="MemberReg[password]" placeholder="输入您的密码" aria-required="true"><div class="error-msg"></div></div>
+</div>						<div class="form-group field-memberreg-rpassword required">
+<div class="col-sm-8 col-sm-offset-3"><input type="password" id="memberreg-rpassword" class="mima" name="MemberReg[rpassword]" placeholder="再次输入您的密码" aria-required="true"><div class="error-msg"></div></div>
+</div>				 
+						<input type="radio" name="xuanz" class="wo"/><span>我已阅读并同意 <a href="#">《百姓阳光平台服务协议》</a></span>
+						<input type="submit" class="sub1"  value="立即注册" />
+			 	<!--
+				<div class="hezuo">
+					<h2>使用合作网站账号登录</h2>
+					<img class="weixin" src="img/weixin.png" />
+					<img class="qq" src="img/qq.png" />
+					<img class="weibo" src="img/weobo.png" />
+				</div>
+				-->
+				</div>
+			</div>
+		</div>
+		<div class="box"></div>
+		
+		
+		<script>
+   //生成日期
+   function creatDate()
+   {
+     //生成1900年-2100年
+     for(var i = 2016; i >= 1950; i--)
+     {
+       //创建select项
+       var option = document.createElement('option');
+       option.setAttribute('value',i);
+       option.innerHTML = i;
+       sel1.appendChild(option);
+     }
+     //生成1月-12月
+     for(var i = 1; i <=12; i++){
+       var option1 = document.createElement('option');
+       option1.setAttribute('value',i);
+       option1.innerHTML = i;
+       sel2.appendChild(option1);
+     }
+     //生成1日—31日
+     for(var i = 1; i <=31; i++){
+       var option2 = document.createElement('option');
+       option2.setAttribute('value',i);
+       option2.innerHTML = i;
+       sel3.appendChild(option2);
+     }
+   }
+   creatDate();
+   //保存某年某月的天数
+   var days;
+ 
+   //年份点击 绑定函数
+   sel1.onclick = function()
+   {
+     //月份显示默认值
+     sel2.options[0].selected = true;
+     //天数显示默认值
+     sel3.options[0].selected = true;
+   }
+   //月份点击 绑定函数
+   sel2.onclick = function()
+   {
+     //天数显示默认值
+     sel3.options[0].selected = true;
+     //计算天数的显示范围
+     //如果是2月
+     if(sel2.value == 2)
+     {
+       //判断闰年
+       if((sel1.value % 4 === 0 && sel1.value % 100 !== 0) || sel1.value % 400 === 0)
+       {
+         days = 29;
+       }
+       else
+       {
+         days = 28;
+       }
+       //判断小月
+     }else if(sel2.value == 4 || sel2.value == 6 ||sel2.value == 9 ||sel2.value == 11){
+       days = 30;
+     }else{
+       days = 31;
+     }
+ 
+     //增加或删除天数
+     //如果是28天，则删除29、30、31天(即使他们不存在也不报错)
+     if(days == 28){
+       sel3.remove(31);
+       sel3.remove(30);
+       sel3.remove(29);
+     }
+     //如果是29天
+     if(days == 29){
+       sel3.remove(31);
+       sel3.remove(30);
+       //如果第29天不存在，则添加第29天
+       if(!sel3.options[29]){
+         sel3.add(new Option('29','29'),null)
+       }
+     }
+     //如果是30天
+     if(days == 30){
+       sel3.remove(31);
+       //如果第29天不存在，则添加第29天
+       if(!sel3.options[29]){
+         sel3.add(new Option('29','29'),null)
+       }
+       //如果第30天不存在，则添加第30天
+       if(!sel3.options[30]){
+         sel3.add(new Option('30','30'),null)
+       }
+     }
+     //如果是31天
+     if(days == 31){
+       //如果第29天不存在，则添加第29天
+       if(!sel3.options[29])
+       {
+         sel3.add(new Option('29','29'),null)
+       }
+       //如果第30天不存在，则添加第30天
+       if(!sel3.options[30])
+       {
+         sel3.add(new Option('30','30'),null)
+       }
+       //如果第31天不存在，则添加第31天
+       if(!sel3.options[31])
+       {
+         sel3.add(new Option('31','31'),null)
+       }
+     }
+   }
+ 
+   //结果显示 设置好日期时间后 弹窗通知
+//    box.onclick = function()
+//     {
+//     //当年、月、日都已经为设置值时
+//     if(sel1.value !='year' && sel2.value != 'month' && sel3.value !='day')
+//     {
+//       alert("日期时间已经设定好");
+//     }
+//     }
+ 
+ </script>
+ 
+ <script language="javascript">function addCookie(name, value, expiresHours) {
+	var cookieString = name + "=" + escape(value); //判断是否设置过期时间,0代表关闭浏览器时失效
+	if(expiresHours > 0) {
+		var date = new Date();
+		date.setTime(date.getTime() + expiresHours * 1000);
+		cookieString = cookieString + ";expires=" + date.toUTCString();
+	}
+	document.cookie = cookieString;
+}
+//修改cookie
+function editCookie(name, value, expiresHours) {
+	var cookieString = name + "=" + escape(value);
+	if(expiresHours > 0) {
+		var date = new Date();
+		date.setTime(date.getTime() + expiresHours * 1000); //单位是毫秒
+		cookieString = cookieString + ";expires=" + date.toGMTString();
+	}
+	document.cookie = cookieString;
+}
+
+function getCookieValue(name) {
+	var strCookie = document.cookie;
+
+	var arrCookie = strCookie.split(";");
+	for(var i = 0; i < arrCookie.length; i++) {
+		var arr = arrCookie[i].split("=");
+		if(arr[0] == name) {
+			return unescape(arr[1]);
+			break;
+		}
+	}
+
+}
+
+$(function() {
+	$("#second").removeAttr("disabled");
+	$("#second").click(function() {
+		sendCode($("#second"));
+		return false;
+	});
+	v = getCookieValue("secondsremained_login") ? getCookieValue("secondsremained_login") : 0; //获取cookie值
+
+	if(v > 0) {
+		settime($("#second")); //开始倒计时
+	}
+}) //发送验证码
+function sendCode(obj) {
+	var site = '/uc/login/sendsms';
+var mobile = $("#loginform-mobile").val(); //检查手机是否合法
+
+ 
+var result = isPhoneNum();
+if(result) { //检查手机号码是否存在
+	//  var exists_result = dbCheckMobileExists(site,{"mobile":mobile});        if(exists_result){
+
+	doPostBack(site, {
+		"mobile": mobile
+	});
+
+	addCookie("secondsremained_login", 15, 15); //添加cookie记录,有效时间60s
+	settime(obj); //开始倒计时
+	// }
+}
+} //检查手机号码是否存
+function dbCheckMobileExists(url, queryParam) {
+	$.ajax({
+		async: false,
+		cache: false,
+		type: 'POST',
+		url: url, // 请求的action路径
+		data: queryParam,
+		error: function() { // 请求失败处理函数
+		},
+		success: function(result) {
+			if(result == 'Success') {
+				return true;
+			} else {
+				alert('该手机号码不存在！');
+				return false;
+			}
+		}
+	});
+} //将手机利用ajax提交到后台的发短信
+function doPostBack(url, queryParam) {
+	$.ajax({
+		async: false,
+		cache: false,
+		type: 'POST',
+		url: url, // 请求的action路径
+		data: queryParam,
+		error: function() { // 请求失败处理函数
+		},
+		success: function(result) {
+			//alert(result);
+			if(result == 'Success') {
+				layer.msg('短信发送成功，验证码10分钟内有效,请注意查看手机短信。如果未收到短信，请在60秒后重试！')
+
+			} else if(result == 'no') {
+                layer.alert('手机号已存在');
+				return false;
+			}
+		}
+	});
+} //开始倒计时
+var countdown;
+
+function settime(obj) {
+
+	countdown = getCookieValue("secondsremained_login") ? getCookieValue("secondsremained_login") : 0;
+
+	if(countdown == 0) {
+		obj.removeAttr("disabled");
+		obj.html("获取验证码");
+		return;
+	} else {
+		obj.attr("disabled", true);
+		obj.html(countdown + "秒后重发");
+		countdown--;
+		editCookie("secondsremained_login", countdown, countdown + 1);
+	}
+	setTimeout(function() {
+		settime(obj)
+	}, 1000);
+
+}
+
+function isPhoneNum() {
+	var phonenum = $("#loginform-mobile").val();
+	var myreg = /(\d{11})/;
+	if(!myreg.test(phonenum)) {
+		alert('请输入有效的手机号码！');
+		$("#loginform-mobile").focus();
+		return false;
+	} else {
+		return true;
+	}
+}</script><script src="../../assets/c13f7ec2/yii.js" tppabs="http://www.baxsun.cn/assets/c13f7ec2/yii.js"></script>
+<script src="../../assets/c13f7ec2/yii.activeForm.js" tppabs="http://www.baxsun.cn/assets/c13f7ec2/yii.activeForm.js"></script>
+<script src="../../assets/c13f7ec2/yii.validation.js" tppabs="http://www.baxsun.cn/assets/c13f7ec2/yii.validation.js"></script>
+<script type="text/javascript">jQuery(function ($) {
+jQuery('#signupForm').yiiActiveForm([], []);
+$(document).ready(
+				function() {
+					$(window).resize(function() {
+						resizepage();
+					});
+					resizepage();
+				});
+
+			function resizepage() {
+
+				var w_h = $(window).innerHeight();
+				var f_h = $(".footer").outerHeight();
+			 
+				if(w_h > f_h + 600) {
+					$("#login-content").height(w_h - f_h);
+				}
+			}
+
+});</script></body>
+</html>
+

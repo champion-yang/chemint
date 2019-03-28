@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<!--[if lt IE 9]>
+<script src="../static/js/html5.js" tppabs="http://www.baxsun.cn/static/js/html5.js"></script>
+<script src="../static/js/css3-mediaqueries.js" tppabs="http://www.baxsun.cn/static/js/css3-mediaqueries.js"></script>
+<![endif]-->
+     <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="N2OlMShwP-aNs7Px_e3R7Yzw5-hwiFqIj3U2FyRkMphGK5R_EQpJv-ny4NzQtJiHvrGEuzilLcLGB1xIfhRD2Q==">
+    <title>登录_百姓阳光大药房</title>
+    <link href="css/UC_Login.css" tppabs="http://www.baxsun.cn/uc/css/UC_Login.css" rel="stylesheet" 0="app\assets\LoginAsset">
+<script src="../js/jquery-1.8.3.min.js" tppabs="http://www.baxsun.cn/js/jquery-1.8.3.min.js"></script>
+<script src="../js/layer/layer.js" tppabs="http://www.baxsun.cn/js/layer/layer.js"></script></head>
+
+<body>
+
+	 
+  <script>
+$(document).on('click','.wxlogin',function(){
+    var url = $(this).attr('href');
+  layer.open({
+     type: 2,
+     title:'微信登陆',
+     area: ['600px', '450px'],
+     fixed: false, //不固定
+
+     content:url,
+ })
+
+ return false;
+   })
+</script>
+<div class="head">
+ 			<img class="logo" src="../img/logo.png" tppabs="http://www.baxsun.cn/img/logo.png" alt="">			<p class="dengl">还不是百姓阳光会员？
+				<a href="login/reg.htm" tppabs="http://www.baxsun.cn/uc/login/reg">免费注册</a>			</p>
+		
+		</div>
+		<div class="main">
+			<div class="main_left">
+			<img src="img/banner.png" tppabs="http://www.baxsun.cn/uc/img/banner.png" alt="">				 
+			</div>
+			<div class="main_right">
+				<h1>Hi，欢迎登录！</h1>
+				<div>
+					<form id="signupForm" class="form-horizontal" action="http://www.baxsun.cn/uc/login" method="post" enctype="multipart/form-data">
+<input type="hidden" name="_csrf" value="N2OlMShwP-aNs7Px_e3R7Yzw5-hwiFqIj3U2FyRkMphGK5R_EQpJv-ny4NzQtJiHvrGEuzilLcLGB1xIfhRD2Q==">						<div class="form-group field-memberlogin-username required">
+<div class="col-sm-8 col-sm-offset-3"><input type="text" id="memberlogin-username" class="txt" name="MemberLogin[username]" placeholder="输入邮箱号/手机号" aria-required="true"><div class="error-msg"></div></div>
+</div>						<div class="form-group field-memberlogin-password required">
+<div class="col-sm-8 col-sm-offset-3"><input type="password" id="memberlogin-password" class="mima" name="MemberLogin[password]" placeholder="输入密码" aria-required="true"><div class="error-msg"></div></div>
+</div> 					 <div class="hezuo">
+ 					<img class="weixin" src="img/weixin.png" tppabs="http://www.baxsun.cn/uc/img/weixin.png" /><a class="wxlogin" href="javascript:if(confirm(%27http://www.baxsun.cn/uc/login/weixin  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.baxsun.cn/uc/login/weixin%27" tppabs="http://www.baxsun.cn/uc/login/weixin" style="color:#22d594;padding: 10px 10px;">微信扫码登陆</a>
+ 				</div>
+
+					 
+						<input type="submit" class="sub" value="立即登录" />
+					</form>				</div>
+				 
+			</div>
+		</div><script src="../assets/c13f7ec2/yii.js" tppabs="http://www.baxsun.cn/assets/c13f7ec2/yii.js"></script>
+<script src="../assets/c13f7ec2/yii.validation.js" tppabs="http://www.baxsun.cn/assets/c13f7ec2/yii.validation.js"></script>
+<script src="../assets/c13f7ec2/yii.activeForm.js" tppabs="http://www.baxsun.cn/assets/c13f7ec2/yii.activeForm.js"></script>
+<script type="text/javascript">jQuery(function ($) {
+jQuery('#signupForm').yiiActiveForm([{"id":"memberlogin-username","name":"username","container":".field-memberlogin-username","input":"#memberlogin-username","error":".error-msg","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"用户名不能为空。"});}},{"id":"memberlogin-password","name":"password","container":".field-memberlogin-password","input":"#memberlogin-password","error":".error-msg","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"密码不能为空。"});}}], []);
+});</script></body>
+</html>
+
