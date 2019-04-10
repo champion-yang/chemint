@@ -1,0 +1,167 @@
+#liver_section{
+	width: 1170px;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+#liver{
+	overflow: hidden;
+}
+/*轮播开始*/
+#liver_carousel{
+	width: 70%;
+	height: 339px;
+	float: left;
+    overflow: hidden;
+}
+
+/*轮播结束*/
+
+/*轮播右边栏开始*/
+#carousel_right_aside{
+	width: 335px;
+	 
+	float: right;
+	
+}
+#carousel_right_aside .news-list{
+    border:none;
+    height: 300px;
+    border-top: none;
+	margin:0;
+}
+.special-right-news{
+    
+}
+.special-right-news .cate-title{
+    line-height: 40px;
+    background: #ef4c4f;
+    padding: 0 15px;
+}
+.special-right-news .cate-title h3{
+    font-size: 16px;
+}
+.special-right-news .cate-title .more{
+    float: right;
+}
+.special-right-news .cate-title a{
+    color: #fff;
+}
+
+.special-right-news .news-list ul li.img-item span{
+    font-size: 12px;
+}
+
+ 
+/*轮播右边栏结束*/
+
+/*推荐药品开始*/
+#liver_recommend_drugs,.liver_one_floor{
+	margin-top: 1%;
+}
+.special .yaopin-box .yaopin-nr
+{
+    display: block!important;
+    border: 1px solid #f0f0f0;
+    border-top:none;
+}
+.goods-block-title{
+    line-height: 40px;
+ 
+    border-bottom: 2px solid #ef4c4f;
+}
+.goods-block-title h3{
+    color: #ef4c4f;
+    font-size: 18px;
+}
+
+
+/*推荐药品结束*/
+.liver_banner{
+	margin: 1% 0;
+	height: 110px;
+	background: url(liver.png)/*tpa=http://www.baxsun.cn/img/liver.png*/ no-repeat;
+}
+/*乙肝用药开始*/
+
+.special .section-index.cp-list{
+     border: none;
+}
+
+.special  .secton-show{
+    border: 1px solid #ef4c4f;
+    border-top: 0;
+	width: auto;
+}
+.special div.cp-ullist{
+    float: left;
+    padding: 0;
+    border: none;
+}
+.special div.cp-list-tit{
+    border-bottom: 1px solid #ef4c4f;
+  
+}
+
+.special .cp-list-tit{line-height: 38px; font-size: 18px;border-bottom: 1px solid #ee7624;}
+.special .cp-list-tit h3{ margin: 0px;   padding:0; font-size: 18px;}
+.special .cp-list-tit h3 .quick-tags{
+	padding:0 80px;
+	font-size: 14px;
+	text-align: right;
+	float: right;
+ 
+}
+.special .cp-list-tit h3 .quick-tags a{
+	color: #000;
+}
+.special .cp-list-tit a.more{
+	float: right;line-height: 38px;
+	font-size: 12px;
+	color:  #ee7624;
+}
+.special .cp-list-tit h3 a{
+    	color:  #ef4c4f;
+}
+.special .section-index .cp-info{ border-bottom:1px solid #fff;border-top:1px solid #fff;
+    margin-left: 16px;
+    }
+
+
+.special .section-index .cp-info .cp-miaoshu a{color: #fff; }
+.special .section-index .cp-info:hover{
+	border: 1px solid #bdbdbd;
+	box-shadow: 1px 1px 3px #ccc;
+}
+ 
+ 
+
+.special  .section-news{
+    float:right;
+    width: 200px;
+    
+}
+.special  .section-news .news-list{
+    border-left: 1px solid #ef4c4f;
+    height: 300px;
+}
+.leftsidebar-tit{
+	  background: #ef4c4f;
+}
+.left-chanel{
+	border: 1px solid #ef4c4f;
+}
+
+.index-menu .cate-menu{background-color:rgba(255,127,80,0.95);border-top-color:RGBA(255,127,80,0.95);}
+
+.love-news-list{
+        overflow: hidden;
+    border-bottom: 1px solid  #ef4c4f;
+}
+.love-news-list h3 a{
+    line-height: 36px;
+    padding:0 15px;
+    color: #fff;
+    font-size: 16px;
+    background: #ef4c4f;
+    float: left;
+}

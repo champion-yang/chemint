@@ -1,0 +1,142 @@
+.nav-box.main-nav{
+	border-bottom: 3px solid #3f0057;
+}
+.nav-left{background: #3f0057;}
+
+.nav-right ul li.active>a{
+	color: #3f0057;
+}
+.nav-right>ul>li:hover>a{
+		border-right: 1px solid #3f0057;border-top: 1px solid #3f0057;border-left: 1px solid #006633;
+}
+.nav-right ul>li>ul{
+	background: url(menu-line_green.png)/*tpa=http://www.baxsun.cn/img/menu-line_green.png*/ #fff 0 0px no-repeat;
+	border-right: 1px solid #3f0057;border-bottom: 1px solid #3f0057;border-left: 1px solid #006633;
+}
+
+
+
+.search{ padding-left: 82px; float: left;}
+.search-s{width: 510px;}
+.search-s1{width: 386px; border: 2px solid #3f0057; height: 36px;float: left; padding:0px 10px;}
+.search-s2{width:100px; height: 40px; background: #3f0057;float:right; font-size:16px;color:#FFF;line-height: 40px; text-align: center;margin-left: -4px;}
+.search-s2 a{ color:#fff; display: block;}
+.search-s2 a:hover{ background: #3f0057;}
+.search-text{color: #000; line-height: 28px; font-size: 12px; width: 500px;}
+
+
+.special-right-news .cate-title{
+    line-height: 40px;
+    background: #3f0057;
+    padding: 0 15px;
+}
+.special-right-news .cate-title h3{
+    font-size: 16px;
+}
+.special-right-news .cate-title .more{
+    float: right;
+}
+.special-right-news .cate-title a{
+    color: #fff;
+}
+#carousel_right_aside .news-list{
+	border: 1px solid #3f0057;
+	border-top: none;
+	overflow: hidden;
+}
+.special-right-news .news-list ul li.img-item span{
+    font-size: 12px;
+}
+
+
+.special .yaopin-box .yaopin-nr
+{
+    display: block!important;
+    border: 1px solid #3f0057;
+    border-top:none;
+}
+.goods-block-title{
+    line-height: 40px;
+    border-bottom: 2px solid #3f0057;
+}
+.goods-block-title h3{
+    color: #3f0057;
+    font-size: 18px;
+}
+
+
+
+/*乙肝用药开始*/
+
+.special .section-index.cp-list{
+     border: none;
+}
+
+.special  .secton-show{
+    border: 1px solid #3f0057;
+    border-top: 0;
+}
+.special div.cp-ullist{
+    float: left;
+    padding: 0;
+    border: none;
+}
+.special div.cp-list-tit{
+    border-bottom: 2px solid #3f0057;
+  
+}
+
+.special .cp-list-tit{line-height: 38px; font-size: 18px;border-bottom: 1px solid #ee7624;}
+.special .cp-list-tit h3{  margin: 0px;   padding: 0 0px; font-size: 18px;}
+.special .cp-list-tit a.more{
+	float: right;line-height: 38px;
+	font-size: 12px;
+	color:  #3f0057;
+}
+.special .cp-list-tit h3 a{
+    	color:  #3f0057;
+}
+.special .section-index .cp-info{ border-bottom:1px solid #fff;border-top:1px solid #fff;
+    margin-left: 16px;
+    }
+
+
+.special .section-index .cp-info .cp-miaoshu a{color: #fff; }
+.special .section-index .cp-info:hover{
+	border: 1px solid #bdbdbd;
+	box-shadow: 1px 1px 3px #ccc;
+}
+ 
+ 
+
+.special  .section-news{
+    float:right;
+    width: 200px;
+    
+}
+.special  .section-news .news-list{
+    border-left: 1px solid #3f0057;
+    height: 300px;
+}
+
+.leftsidebar-tit{
+	  background: #3f0057;
+}
+.left-chanel{
+	border: 1px solid #3f0057;
+}
+
+.index-menu .cate-menu{background-color:rgba(63,0,87,0.95);border-top-color:RGBA(63,0,87,0.95);}
+
+.love-news-list{
+        overflow: hidden;
+    border-bottom: 1px solid  #3f0057;
+}
+.love-news-list h3 a{
+    line-height: 36px;
+    padding:0 15px;
+    color: #fff;
+    font-size: 16px;
+    background: #3f0057;
+    float: left;
+}
